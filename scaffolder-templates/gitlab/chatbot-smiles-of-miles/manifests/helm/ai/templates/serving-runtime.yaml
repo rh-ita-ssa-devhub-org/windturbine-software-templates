@@ -24,8 +24,6 @@ spec:
         - '--served-model-name={{"{{"}}.Name{{"}}"}}'
         - '--distributed-executor-backend=mp'
         - '--max-model-len={{ .Values.app.model.maxLength }}'
-        - '--enable-auto-tool-choice'
-        - '--tool-call-parser'
       command:
         - python
         - '-m'

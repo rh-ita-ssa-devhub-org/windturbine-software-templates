@@ -46,6 +46,7 @@ spec:
             - mistral-7b-instruct-v03
             - parasol-instruct
             - granite-30-8b-instruct
+            - qwen3-14b on lite-maas
         model_max_length:
           title: Max model length
           default: "4096"
